@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outline{
+            border: 5px solid black;
+            padding: 150px;
+            position: relative;
+            margin:10px;
+            background-color: blue;
+        }
+        .inline{
+            border: 5px solid black;
+            padding: 50px;
+            position: relative;
+            width: 300px;
+            height: 400px;
+            position: relative;
+            top: -200px;
+            left: 500px;
+            background-color: aqua;
+        }
+        .one{
+            position: relative;
+            top:1px;
+            left: 20px;
+        }
+        .last{
+            position: relative;
+            top:250px;
+            left: 20px;
+            
+        }
+        .btn-primary{
+            padding: 10px;
+            margin: 30px;
+        }
+        .five {
+            position: relative;
+            top:200px;
+            left: 20px;
+            
+        }
+        .four{
+            position: relative;
+            top:150px;
+            left: 20px;
+        }
+        .three{
+            position: relative;
+            top:100px;
+            left: 20px;
+        }
+        .two{
+            position: relative;
+            top:50px;
+            left: 20px;
+        }
+        h1{
+            position: relative;
+            top:25px;
+            left: 650px;
+        }
+        h3{
+            position: relative;
+            top: 50px;
+            left: 600px; 
+        }
+        .img-thumbnail{
+            width: 250px;
+            height: 250px;
+            position: relative;
+            top: 200px;
+            left: 200px;
+        }
+    </style>
+</head>
+<body>
+     <div class="outline">
+        <h1>Event 1</h1>
+        <h3>Number of Seats available: 23</h3>
+        <div>
+            <img src="form.jpg" class="img-thumbnail" alt="...">
+        </div>
+        <div class="inline">
+            
+            <div>
+                <form action="">
+                    <div class="one">
+                        <label id="text1" for="name">Name: </label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="two">    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="three">    
+                        <label for="phn">Phone No:</label>
+                        <input type="number" id="phn">
+                    </div>
+                    <div class="four">
+                        <label for="seats">Number of Seats</label>
+                        <!-- <select name="seats" id="seats">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select> -->
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Click to view dropdown</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">3</option>
+                            <option value="5">3</option>
+                            <option value="6">3</option>
+                            <option value="7">3</option>
+                            <option value="8">3</option>
+                            <option value="9">3</option>
+                          </select>
+                    </div>
+                    <div class="five">
+                        <label for="attendee">Name of Attendee:</label>
+                        <input type="text" id="attendee">
+                    </div>
+                    <div class="last">
+                        <button type="button" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-primary">Cancel</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+
+     </div>
+</body>
+</html>
